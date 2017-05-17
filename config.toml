@@ -1,0 +1,35 @@
+baseurl             = "https://haruair.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-AU"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "Edward Kim"
+title               = "Eating My Code Everyday"
+pygmentsuseclasses  = true
+pluralizelisttitles = false
+googleAnalytics     = "UA-89657110-1"
+theme               = "cocoa"
+
+[permalinks]
+fixed = ":title/"
+blog  = "post/:slug/"
+
+[params]
+author       = "Edward Kim"
+cachebuster  = true # add the current unix timestamp in query string for cache busting css assets
+dateform     = "2 Jan, 2006"
+dateformfull = "Mon 2 Jan 2006 15:04:05 AEST"
+description  = "I love Web-thing"
+faviconfile  = "img/leaf.ico"
+github       = "//github.com/haruair"
+highlightjs  = true
+lang         = "en"
+twitter      = "//twitter.com/haruair"
+
+# gravatar             = "haruair"     # do not use in the same time as avatar
+# avatar               = ""     # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# highlightjslanguages = ["go", "php", "python"] # additional languages not included in the "common" set
+
+extracssfiles = [ "/css/custom.css" ]

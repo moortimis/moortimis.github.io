@@ -1,0 +1,16 @@
+html {
+	height: auto;
+}
+
+body {
+	min-height: 0;
+	width: auto;
+}
+
+section.main .content .markdown ul {
+	margin-left: 1.5rem;
+}
+
+section.main .content .markdown li {
+	list-style-position: outside;
+}
