@@ -2,6 +2,8 @@
 
 A static blog repository based [Hugo](https://gohugo.io). 
 
+[![Build Status](https://travis-ci.org/moortimis/moortimis.github.io.svg?branch=master)](https://travis-ci.org/moortimis/moortimis.github.io)
+
 ## A Few Tips
 
 Up and running in a few types.
