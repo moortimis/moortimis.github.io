@@ -4,10 +4,10 @@ go:
 env:
   global:
     - SSH_KEY="travis_key"
-    - GIT_NAME="Edward Kim"
-    - GIT_EMAIL="onward.edkim@gmail.com"
+    - GIT_NAME="Tim Moor"
+    - GIT_EMAIL="tim@moor.kiwi"
     - SOURCE_DIR="public"
-    - DEPLOY_BRANCH="code"
+    - DEPLOY_BRANCH="source"
     - TEMP_DIR=$(sudo mktemp -d /tmp/$REPO_NAME.XXXX)
 before_install:
   - openssl aes-256-cbc -K $encrypted_64ac435f0676_key -iv $encrypted_64ac435f0676_iv
