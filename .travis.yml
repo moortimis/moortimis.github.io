@@ -4,19 +4,17 @@ go:
 env:
   global:
     - SSH_KEY="travis_key"
-    - GIT_NAME="Tim Moor"
-    - GIT_EMAIL="tim@moor.kiwi"
+    - GIT_NAME="Edward Kim"
+    - GIT_EMAIL="onward.edkim@gmail.com"
     - SOURCE_DIR="public"
-    - DEPLOY_BRANCH="source"
+    - DEPLOY_BRANCH="code"
     - TEMP_DIR=$(sudo mktemp -d /tmp/$REPO_NAME.XXXX)
 before_install:
-  - openssl aes-256-cbc -K $encrypted_57454ee5ccf0_key -iv $encrypted_57454ee5ccf0_iv
-    -in travis_key.enc -out travis_key -d
+  - openssl aes-256-cbc -K $encrypted_64ac435f0676_key -iv $encrypted_64ac435f0676_iv
+   -in travis_key.enc -out travis_key -d
 before_script:
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-  - go get github.com/kardianos/govendor
-  - govendor get github.com/spf13/hugo
-  - go install github.com/spf13/hugo
+  - go get -u -v github.com/spf13/hugo
 script:
   - git submodule init
   - hugo
