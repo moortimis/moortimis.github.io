@@ -1,4 +1,4 @@
-# [haruair.github.io](https://haruair.github.io)
+# [moortimis.github.io](https://moortimis.github.io)
 
 A static blog repository based [Hugo](https://gohugo.io). 
 
@@ -8,8 +8,8 @@ Up and running in a few types.
 
 ```
 $ brew update && brew install hugo
-$ git clone https://github.com/haruair/haruair.github.io.git --recursive
-$ cd haruair.github.io
+$ git clone https://github.com/moortimis/moortimis.github.io.git --recursive
+$ cd moortimis.github.io
 $ git checkout -b code
 $ hugo server -w
 ```
