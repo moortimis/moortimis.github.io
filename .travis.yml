@@ -14,7 +14,8 @@ before_install:
     -in travis_key.enc -out travis_key -d
 before_script:
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-  - go get -u -v http://github.com/spf13/hugo
+  - go get github.com/kardianos/govendor
+  - govendor get github.com/spf13/hugo
 script:
   - git submodule init
   - hugo
