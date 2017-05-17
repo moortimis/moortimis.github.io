@@ -1,35 +1,69 @@
-baseurl             = "https://haruair.github.io/"
+baseurl             = "/"
+languageCode        = "en-us"
+title               = "tim.moor.kiwi"
+theme               = "introduction"
+enforce_ssl         = "tim.moor.kiwi"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
-languageCode        = "en-AU"
 layoutdir           = "layouts"
 publishdir          = "public"
-author              = "Edward Kim"
-title               = "Eating My Code Everyday"
-pygmentsuseclasses  = true
-pluralizelisttitles = false
-googleAnalytics     = "UA-89657110-1"
-theme               = "cocoa"
+googleAnalytics   = "UA-31295784-7"
+# disqusshortname   = "xxx" 			# Enable Disqus for comments
 
 [permalinks]
 fixed = ":title/"
-blog  = "post/:slug/"
+blog  = "blog/:slug/"
 
 [params]
-author       = "Edward Kim"
-cachebuster  = true # add the current unix timestamp in query string for cache busting css assets
-dateform     = "2 Jan, 2006"
-dateformfull = "Mon 2 Jan 2006 15:04:05 AEST"
-description  = "I love Web-thing"
-faviconfile  = "img/leaf.ico"
-github       = "//github.com/haruair"
-highlightjs  = true
-lang         = "en"
-twitter      = "//twitter.com/haruair"
+author        = "Tim Moor"	 		# Full name shows on blog post pages
+firstname     = "Tim"	 			# First name shows in introduction on main page
+tagline       = "Evangelist, Propeller Head, Super Geek and Open Source Ninja"
+introheight   = "medium" 			# Input either 'medium' or 'large' or 'fullheight'
+avatar        = "img/timmoorfiverr.jpg"		# Path to image in static folder eg. img/avatar.png 
+email         = "tim@moor.kiwi" 		# Shows in contact section, or leave blank to omit
+localtime     = true 				# Show your current local time in contact section
+timezone      = "Pacific/Auckland" 		# Your timezone as in the TZ* 
+dateform      = "Jan 2, 2006"
+dateformfull  = "Mon Jan 2 2006 15:04:05 EST"
+cachebuster   = true 				# Add the current unix timestamp in query string for cache busting css assets
+description   = "The personal blog of Tim Moor"
+faviconfile   = "img/fav.ico"
+highlightjs   = true 				# Syntax highlighting
+lang          = "en"
+footertext    = "Proudly brought to you by [*hugo*](https://gohugo.io)"
 
-# gravatar             = "haruair"     # do not use in the same time as avatar
-# avatar               = ""     # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# highlightjslanguages = ["go", "php", "python"] # additional languages not included in the "common" set
+showblog        = true 				# Show Blog section on home page
+showallposts    = false 			# Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+showlatest      = true 				# Show latest blog post summary
+sharebuttons    = true 				# On post pages, show share this social buttons
+showprojects    = true 				# Show Projects section on home page
 
-extracssfiles = [ "/css/custom.css" ]
+# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
+project1link    = "#"
+project1img     = "img/project1.jpg"
+project1title   = "Project 1"
+
+project2link    = "#"
+project2img     = "img/project2.jpg"
+project2title   = "Project 2"
+
+project3link    = "#"
+project3img     = "img/project3.jpg"
+project3title   = "Project 3"
+
+
+# Social icons appear in introduction and contact section. Add as many more as you like.
+# Find icon names here: http://fontawesome.io/cheatsheet/
+
+[[params.social]]
+url = "https://twitter.com/moor_kiwis"
+icon = "twitter"
+
+[[params.social]]
+url = "https://www.facebook.com/tim.moor"
+icon = "facebook"
+
+[[params.social]]
+url = "https://www.linkedin.com/in/timmoor"
+icon = "linkedin"
