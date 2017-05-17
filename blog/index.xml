@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tim.moor.kiwi</title>
-    <link>http://tim.moor.kiwi/</link>
-    <description>Recent content on tim.moor.kiwi</description>
+    <title>Blogs on tim.moor.kiwi</title>
+    <link>http://tim.moor.kiwi/blog/</link>
+    <description>Recent content in Blogs on tim.moor.kiwi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 20:09:24 +1200</lastBuildDate>
+    <lastBuildDate>Sat, 04 Feb 2017 11:10:12 +1100</lastBuildDate>
     
-	<atom:link href="http://tim.moor.kiwi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tim.moor.kiwi/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>about</title>
-      <link>http://tim.moor.kiwi/about/</link>
-      <pubDate>Mon, 01 May 2017 20:09:24 +1200</pubDate>
-      
-      <guid>http://tim.moor.kiwi/about/</guid>
-      <description>My name is Tim Moor and I am a fully time DevOps and Open Source Evangalist. I&amp;rsquo;ve worked for Red Hat as part of the professional services arm and throghouly enjoyed my time traveling the world seeing the various ways people use Open Source software.
-So I guess you hear to find out a bit more about &amp;ldquo;Who I am&amp;rdquo;, &amp;ldquo;Why I write the posts that I do&amp;rdquo; and just gernally being nosiey I guess.</description>
-    </item>
-    
-    <item>
-      <title>contact</title>
-      <link>http://tim.moor.kiwi/contact/</link>
-      <pubDate>Mon, 01 May 2017 20:09:24 +1200</pubDate>
-      
-      <guid>http://tim.moor.kiwi/contact/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Setup Hugo blog on Github Pages with Travis CI</title>
@@ -68,26 +49,6 @@ One of the model includes User ForeignKey with on_delete=models.</description>
       <guid>http://tim.moor.kiwi/blog/new-years-resolution/</guid>
       <description>I&amp;rsquo;d love to make a list. New year&amp;rsquo;s resolution is one of the things, I almost forget about it at the end of the year, though. I want to list some ideas for 2017:
  Keep writing a blog as much as I did last year. But the difference is that the posts will be written by English. Read more. When I read something, it still very slow. Probably I will grab Kindle again, want to spend more time with the text.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://tim.moor.kiwi/about/</link>
-      <pubDate>Sun, 01 Jan 2017 14:15:40 +1100</pubDate>
-      
-      <guid>http://tim.moor.kiwi/about/</guid>
-      <description>Edward Kim I&amp;rsquo;m an open web developer and am eating my code everyday.
-Get in touch You can find me here twitter/haruair, and also haruair.com.</description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>http://tim.moor.kiwi/code/</link>
-      <pubDate>Sun, 01 Jan 2017 14:15:40 +1100</pubDate>
-      
-      <guid>http://tim.moor.kiwi/code/</guid>
-      <description>Nothing on the list, just yet.
-You can find my code on github.com/haruair.</description>
     </item>
     
     <item>

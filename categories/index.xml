@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on tim.moor.kiwi</title>
-    <link>/categories/</link>
+    <link>http://tim.moor.kiwi/categories/</link>
     <description>Recent content in Categories on tim.moor.kiwi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tim.moor.kiwi/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

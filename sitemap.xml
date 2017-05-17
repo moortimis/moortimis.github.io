@@ -1,28 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>http://tim.moor.kiwi/about/</loc>
     <lastmod>2017-05-01T20:09:24+12:00</lastmod>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>http://tim.moor.kiwi/contact/</loc>
     <lastmod>2017-05-01T20:09:24+12:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://tim.moor.kiwi/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</loc>
+    <lastmod>2017-02-04T11:10:12+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/blog/add-keyboard-shortcut-for-disabling-trackpad-in-lubuntu/</loc>
+    <lastmod>2017-01-31T15:11:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/blog/column-user_id-cannot-be-null-on-django-admin/</loc>
+    <lastmod>2017-01-24T19:11:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/blog/new-years-resolution/</loc>
+    <lastmod>2017-01-02T04:11:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/about/</loc>
+    <lastmod>2017-01-01T14:15:40+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/code/</loc>
+    <lastmod>2017-01-01T14:15:40+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/blog/</loc>
+    <lastmod>2017-02-04T11:10:12+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://tim.moor.kiwi/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http://tim.moor.kiwi/fixed/</loc>
+    <lastmod>2017-01-01T14:15:40+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/</loc>
     <lastmod>2017-05-01T20:09:24+12:00</lastmod>
     <priority>0</priority>
   </url>
