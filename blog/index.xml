@@ -21,37 +21,6 @@
     </item>
     
     <item>
-      <title>Add keyboard shortcut for disabling trackpad in Lubuntu</title>
-      <link>http://tim.moor.kiwi/blog/add-keyboard-shortcut-for-disabling-trackpad-in-lubuntu/</link>
-      <pubDate>Tue, 31 Jan 2017 15:11:45 +1100</pubDate>
-      
-      <guid>http://tim.moor.kiwi/blog/add-keyboard-shortcut-for-disabling-trackpad-in-lubuntu/</guid>
-      <description>I&amp;rsquo;ve sold Dell XPS 13 because of a keyboard, I&amp;rsquo;m back to Dell Inspiron 11 3000. I bought this marchine 8 months ago, Windows 10 was a bit heavy on this laptop. So I replaced OS as Lubuntu. The laptop is low spec but it&amp;rsquo;s not bad for the normal terminal work.
-Only thing I hate is that this laptop doesn&amp;rsquo;t have a palm rejection. The touch pad is almost unusable, I think they forgot someone actually can use it as a pointing device.</description>
-    </item>
-    
-    <item>
-      <title>column `user_id` cannot be null on django admin</title>
-      <link>http://tim.moor.kiwi/blog/column-user_id-cannot-be-null-on-django-admin/</link>
-      <pubDate>Tue, 24 Jan 2017 19:11:45 +1100</pubDate>
-      
-      <guid>http://tim.moor.kiwi/blog/column-user_id-cannot-be-null-on-django-admin/</guid>
-      <description>I&amp;rsquo;ve got an IntegrityError when I remove the user from django-admin. I uses custom User model, but I didn&amp;rsquo;t change that much rather than AbrstractUser from django.contrib.auth.models. The error was like this:
-IntegrityError: (1048, &amp;quot;Column &#39;user_id&#39; cannot be null&amp;quot;)  I couldn&amp;rsquo;t find the case at all. I asussemed that the error occurs from MySQL, I checked all table schema one by one and finally found the reason.
-One of the model includes User ForeignKey with on_delete=models.</description>
-    </item>
-    
-    <item>
-      <title>New Year&#39;s Resolution</title>
-      <link>http://tim.moor.kiwi/blog/new-years-resolution/</link>
-      <pubDate>Mon, 02 Jan 2017 04:11:00 +1100</pubDate>
-      
-      <guid>http://tim.moor.kiwi/blog/new-years-resolution/</guid>
-      <description>I&amp;rsquo;d love to make a list. New year&amp;rsquo;s resolution is one of the things, I almost forget about it at the end of the year, though. I want to list some ideas for 2017:
- Keep writing a blog as much as I did last year. But the difference is that the posts will be written by English. Read more. When I read something, it still very slow. Probably I will grab Kindle again, want to spend more time with the text.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>http://tim.moor.kiwi/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
