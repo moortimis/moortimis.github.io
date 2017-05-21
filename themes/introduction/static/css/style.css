@@ -6131,6 +6131,7 @@ img {
 .hidden {
     display: none
 }
+#nav-bar { position: fixed; top: 0px; left: 0px; z-index: 999; width:100%;}
 #nav-toggle-state {
     display: none
 }
