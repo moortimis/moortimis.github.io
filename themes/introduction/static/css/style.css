@@ -6131,10 +6131,56 @@ img {
 .hidden {
     display: none
 }
-#nav-bar { position: fixed; top: 0px; left: 0px; z-index: 999; width:100%;}
+#nav-bar { 
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    z-index: 999; 
+    width:100%;
+    background: white;
+    border-top: #dbdbdb 1pt solid;
+    border-bottom: #dbdbdb 1pt solid;
+    margin: 10px 0;
+    padding: 10px 0;
+}
 #nav-toggle-state {
     display: none
 }
 #nav-toggle-state:checked ~ .nav-menu {
     display: block
+}
+
+$nav-height: 3em;
+$nav-color: #bbb;
+$nav-background: #2e2e2e;
+
+.navbar-fixed {
+  position: fixed;
+  top: -($nav-height);
+}
+nav {
+  width: 100%;
+  color: $nav-color;
+  background: $nav-background;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+nav ul li {
+ display: inline-block;
+ padding: 0 3em;
+ line-height: 3em;
+}
+nav ul li:hover {
+  background: #00939C;
+}
+body {
+  background: #0B6AD4;
+}
+.filler {
+  width: 1px;
+  height: 200px;
 }
