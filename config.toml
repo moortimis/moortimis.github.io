@@ -40,9 +40,9 @@ sharebuttons    = true 				# On post pages, show share this social buttons
 showprojects    = true 				# Show Projects section on home page
 
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "#"
-project1img     = "img/project1.jpg"
-project1title   = "Project 1"
+project1link    = "#container-kitchen"
+project1img     = "img/container-kitchen.jpg"
+project1title   = "Container Kitchen"
 
 project2link    = "#"
 project2img     = "img/project2.jpg"
