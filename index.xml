@@ -31,22 +31,21 @@ So I guess you hear to find out a bit more about &amp;ldquo;Who I am&amp;rdquo;,
     </item>
     
     <item>
+      <title>my first blog post</title>
+      <link>http://tim.moor.kiwi/blog/my-first-blog-post/</link>
+      <pubDate>Mon, 01 May 2017 20:09:24 +1200</pubDate>
+      
+      <guid>http://tim.moor.kiwi/blog/my-first-blog-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Setup Hugo blog on Github Pages with Travis CI</title>
       <link>http://tim.moor.kiwi/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</link>
       <pubDate>Sat, 04 Feb 2017 11:10:12 +1100</pubDate>
       
       <guid>http://tim.moor.kiwi/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</guid>
       <description>I don&amp;rsquo;t know much about Go, but I saw so many tweets it&amp;rsquo;s a great language, performance wise especially. Hugo is a static blog/site generator written by Go. I feel great with Hugo because of the simplicity. The program is provided as a single binary file. Other tools require a lot of small settings, installing language, setting envrionment, handling a package manager, for example. It still requires some config file, but no worries, it&amp;rsquo;s not that big.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://tim.moor.kiwi/about/</link>
-      <pubDate>Sun, 01 Jan 2017 14:15:40 +1100</pubDate>
-      
-      <guid>http://tim.moor.kiwi/about/</guid>
-      <description>Edward Kim I&amp;rsquo;m an open web developer and am eating my code everyday.
-Get in touch You can find me here twitter/haruair, and also haruair.com.</description>
     </item>
     
     <item>
