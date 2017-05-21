@@ -1,8 +1,9 @@
 +++
 date = "2017-05-18T05:54:31+12:00"
-title = "How to deploy your Hugo site to GitHub using Travis-CI""
-draft = true
+title = "How to deploy your Hugo site to GitHub using Travis-CI"
+
 +++
+
 # Install Hugo
 ```
 $ brew update && brew install hugo
