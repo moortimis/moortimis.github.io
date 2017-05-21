@@ -40,7 +40,7 @@
 
 
     
-    <link rel="stylesheet" href="http://tim.moor.kiwi/css/style.css?t=1495356544">
+    <link rel="stylesheet" href="http://tim.moor.kiwi/css/style.css?t=1495361742">
     
 
 
@@ -120,10 +120,13 @@ ga('send', 'pageview');
     
     <h2 class="title is-2 top-pad">Latest Post</h2>
          
-        <div class="summary">May 1, 2017
-            <h3 class="title is-3 strong-post-title"><a href="http://tim.moor.kiwi/blog/my-first-blog-post/">my first blog post</a></h3>
+        <div class="summary">May 18, 2017
+            <h3 class="title is-3 strong-post-title"><a href="http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/">How to deploy your Hugo site to GitHub using Travis-CI</a></h3>
                 <div class="markdown">
+                Install Hugo $ brew update &amp;&amp; brew install hugo  Basic Huo Usage $ hugo new site haruair $ hugo new post/hello-world.md $ hugo  Once that&rsquo;s done, we want to generate out static content
+$ hugo server --watch --buildDrafts $ hugo server -w -D # same as the above  The strength of static blog is that it don’t need any program specific environment. There are several options, Amazon S3, Dropbox, etc.
                 
+                <a href="http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/">...Read More</a>
                 
                 </div>
         </div>
@@ -132,6 +135,12 @@ ga('send', 'pageview');
 
     <h2 class="title is-2 top-pad">All Posts</h2>
         <ul>
+        
+            
+                <li class="post-item">
+    <span><a href="http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/">How to deploy your Hugo site to GitHub using Travis-CI</a></span> - <span>May 18, 2017</span>
+</li>
+            
         
             
                 <li class="post-item">
@@ -153,75 +162,6 @@ ga('send', 'pageview');
         
         </ul>
 
-    </div>
-
-<div class="container has-text-centered top-pad">
-<hr>
-<a href="http://tim.moor.kiwi/blog/#top"><i class="fa fa-arrow-up"></i></a>
-<hr>
-</div>
-
-<div class="section" id="footer">
-    <div class="container has-text-centered">
-        
-            Proudly brought to you by http://gohugo.io
-        
-    </div>
-</div>
-</div>
-</div>
-
-
-<script>
-$('a[href^="http:\/\/tim.moor.kiwi\/blog\/#"]').click(function(e) {
-    e.preventDefault();
-    var target = this.hash;
-    $('html, body').animate({
-    scrollTop: $(target).offset().top
-    }, 500);
-    return false;
-})
-</script>           <span class="hidden">Google+</span>
-                </a>
-                </div>
-            
-            
-    </div>
-
-    <div class="container markdown fade-in two top-pad">
-        
-
-<p>#
-openssl verify -CAfile /etc/origin/master/ca.crt /etc/origin/master/master.server.crt
-openssl verify -CAfile /etc/origin/master/ca-bundle.crt /etc/origin/master/master.server.crt
-/etc/origin/master/master.server.crt: OK</p>
-
-<p>grep certificate-authority-data /etc/origin/master/admin.kubeconfig | awk &lsquo;{ print $2 }&rsquo; | base64 -d | md5sum
-grep certificate-authority-data /${USER}/.kube/config | awk &lsquo;{ print $2 }&rsquo; | base64 -d | md5sum
-md5sum /etc/origin/master/ca-bundle.crt</p>
-
-<h1 id="grep-certificate-authority-data-etc-origin-master-admin-kubeconfig-awk-print-2-base64-d-md5sum">grep certificate-authority-data /etc/origin/master/admin.kubeconfig | awk &lsquo;{ print $2 }&rsquo; | base64 -d | md5sum</h1>
-
-<p>fb33bfae97375e964fc5c75aec16a894  -</p>
-
-<h1 id="grep-certificate-authority-data-root-kube-config-awk-print-2-base64-d-md5sum">grep certificate-authority-data /root/.kube/config | awk &lsquo;{ print $2 }&rsquo; | base64 -d | md5sum</h1>
-
-<p>fb33bfae97375e964fc5c75aec16a894  -</p>
-
-<h1 id="md5sum-etc-origin-master-ca-bundle-crt">md5sum /etc/origin/master/ca-bundle.crt</h1>
-
-<p>fb33bfae97375e964fc5c75aec16a894  /etc/origin/master/ca-bundle.crt</p>
-
-<p>grep certificate-authority-data /etc/origin/master/admin.kubeconfig | awk &lsquo;{ print $2 }&rsquo; | base64 -d | openssl x509 -noout -text
-diff /${USER}/.kube/config /etc/origin/master/admin.kubeconfig</p>
-
-<p>openssl s_client -CAfile /etc/origin/master/ca-bundle.crt -connect oc-master.domain.com:8443
-oc status &ndash;config=/etc/origin/master/admin.kubeconfig</p>
-
-    </div>
-            
-    <div class="disqus">
-        
     </div>
 
 <div class="container has-text-centered top-pad">

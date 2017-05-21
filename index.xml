@@ -6,10 +6,20 @@
     <description>Recent content on tim.moor.kiwi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 20:09:24 +1200</lastBuildDate>
+    <lastBuildDate>Thu, 18 May 2017 05:54:31 +1200</lastBuildDate>
     
 	<atom:link href="http://tim.moor.kiwi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to deploy your Hugo site to GitHub using Travis-CI</title>
+      <link>http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/</link>
+      <pubDate>Thu, 18 May 2017 05:54:31 +1200</pubDate>
+      
+      <guid>http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/</guid>
+      <description>Install Hugo $ brew update &amp;amp;&amp;amp; brew install hugo  Basic Huo Usage $ hugo new site haruair $ hugo new post/hello-world.md $ hugo  Once that&amp;rsquo;s done, we want to generate out static content
+$ hugo server --watch --buildDrafts $ hugo server -w -D # same as the above  The strength of static blog is that it don’t need any program specific environment. There are several options, Amazon S3, Dropbox, etc.</description>
+    </item>
     
     <item>
       <title>about</title>
