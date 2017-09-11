@@ -12,7 +12,7 @@ Up and running in a few types.
 $ brew update && brew install hugo
 $ git clone https://github.com/moortimis/moortimis.github.io.git --recursive
 $ cd moortimis.github.io
-$ git checkout -b code
+$ git checkout -b source
 $ hugo server -w
 ```
 
