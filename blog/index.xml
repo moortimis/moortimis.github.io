@@ -27,7 +27,8 @@ $ hugo server --watch --buildDrafts $ hugo server -w -D # same as the above  The
       <pubDate>Mon, 01 May 2017 20:09:24 +1200</pubDate>
       
       <guid>http://tim.moor.kiwi/blog/my-first-blog-post/</guid>
-      <description></description>
+      <description>H1 Header This is my first blog post
+H2 Header This is my first blog post</description>
     </item>
     
     <item>
