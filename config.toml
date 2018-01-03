@@ -1,70 +1,99 @@
-baseurl             = "http://tim.moor.kiwi/"
-languageCode        = "en-us"
-title               = "tim.moor.kiwi"
-theme               = "introduction"
-enforce_ssl         = "tim.moor.kiwi"
-builddrafts         = false
-canonifyurls        = true
-contentdir          = "content"
-layoutdir           = "layouts"
-publishdir          = "public"
-googleAnalytics     = "UA-31295784-7"
-# disqusshortname   = "xxx" 			# Enable Disqus for comments
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Tim Moor | Open Source Ninja"
+theme = "hugo-tim-moor-theme"
 
-[permalinks]
-fixed = ":title/"
-blog  = "blog/:slug/"
 
 [params]
-author        = "Tim Moor"	 		# Full name shows on blog post pages
-firstname     = "Tim"	 			# First name shows in introduction on main page
-tagline       = "Evangelist, Propeller Head, Super Geek and Open Source Ninja"
-blogname      = "Open to share"			# Seperate title for the header of all blog pages
-introheight   = "medium" 			# Input either 'medium' or 'large' or 'fullheight'
-avatar        = "img/timmoorfiverr.jpg"		# Path to image in static folder eg. img/avatar.png 
-email         = "tim@moor.kiwi" 		# Shows in contact section, or leave blank to omit
-localtime     = true 				# Show your current local time in contact section
-timezone      = "Pacific/Auckland" 		# Your timezone as in the TZ* 
-dateform      = "Jan 2, 2006"
-dateformfull  = "Mon Jan 2 2006 15:04:05 EST"
-cachebuster   = true 				# Add the current unix timestamp in query string for cache busting css assets
-description   = "The personal blog of Tim Moor"
-faviconfile   = "img/fav.ico"
-highlightjs   = true 				# Syntax highlighting
-lang          = "en"
-footertext    = "Proudly brought to you by http://gohugo.io"
 
-showblog        = true 				# Show Blog section on home page
-showallposts    = false 			# Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
-showlatest      = true 				# Show latest blog post summary
-sharebuttons    = true 				# On post pages, show share this social buttons
-showprojects    = true 				# Show Projects section on home page
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
 
-# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "#container-kitchen"
-project1img     = "img/container-kitchen.jpg"
-project1title   = "Container Kitchen"
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Mr. Hugo"
+    description = "My awesome description"
 
-project2link    = "#"
-project2img     = "img/project2.jpg"
-project2title   = "Project 2"
+    # Custom assets
+	custom_css = []
+	custom_js  = []
 
-project3link    = "#"
-project3img     = "img/project3.jpg"
-project3title   = "Project 3"
+    [params.navigation]
+        brand = "TIM MOOR"
 
 
-# Social icons appear in introduction and contact section. Add as many more as you like.
-# Find icon names here: http://fontawesome.io/cheatsheet/
+    [params.header]
+        # Copy your own image into './static/img/'' if you wish
+        image = "profile.png"
+        name = "TIM MOOR"
+        subtitle = "Cloud Architect - Platform/Automation Specialist"
 
-[[params.social]]
-url = "https://twitter.com/moor_kiwis"
-icon = "twitter"
 
-[[params.social]]
-url = "https://www.facebook.com/tim.moor"
-icon = "facebook"
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Experience"
 
-[[params.social]]
-url = "https://www.linkedin.com/in/timmoor"
-icon = "linkedin"
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Service"
+            buttontext = "Close"
+
+
+    [params.about]
+        title = "About"
+
+        mainText = "Technical Evangelist, Propeller Head, Super Geek and Open Source Ninja are just some of the names I been called. I like to think these terms of endearment are used when someone is highly motivated, confident and passionate about their craft. The following resume will endeavor to demonstrate that I am a highly motivated, confident and conscientious individual with a proven track record of acheivement and success. I am looking to leverage the skills and experience of the last 10 years to solve enable success in your orgnaisation."
+
+        [params.about.button]
+            text = "Download CV"
+            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            icon = "download"
+
+    [params.blog]
+        title = "Blog"
+
+    [params.contact]
+        title = "Contact"
+
+
+    [params.footer]
+        copyright = "Copyright © Mobius Design Studio 2017"
+
+        [params.footer.location]
+            title = "CALL TIM"
+            # Postal address (add as many lines as necessary)
+            phone = "022 1004707"
+
+        [params.footer.social]
+            title = "GET SOCIAL"
+            # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+            # for more icons. The icons are represented by their corresponding
+            # CSS class.
+            [[params.footer.social.networks]]
+                icon = "fa-facebook"
+                link = "#"
+
+            [[params.footer.social.networks]]
+                icon = "fa-google-plus"
+                link=  "#"
+
+            [[params.footer.social.networks]]
+                icon = "fa-twitter"
+                link=  "#"
+
+            [[params.footer.social.networks]]
+                icon = "fa-linkedin"
+                link=  "#"
+
+            [[params.footer.social.networks]]
+                icon = "fa-github"
+                link=  "#"
+
+
+        [params.footer.credits]
+            title = "SEND AN EMAIL"
+            email = "tim.moor@linux-geek.co.nz"
