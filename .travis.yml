@@ -20,7 +20,7 @@ before_script:
   - sudo dpkg -i /tmp/hugo_0.32_Linux-64bit.deb
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
 script:
-  - git submodule init
+  - git submodule update --init --recursive
   - ls -l .
   - pwd
   - find . 
