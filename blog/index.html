@@ -1,193 +1,187 @@
 <!DOCTYPE html>
 <html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="My awesome description">
+<meta name="author" content="Mr. Hugo">
+<meta name="generator" content="Hugo 0.32" />
+<title>Tim Moor | Open Source Ninja</title>
+<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+<link href="http://example.org/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="/css/style.css" rel="stylesheet">
 
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer">
-<meta name="description" content="The personal blog of Tim Moor">
+<!-- Custom Fonts -->
+<link href="http://example.org/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
-<base href="http://tim.moor.kiwi/">
-<title>
+        <link href="/css/blog.css" rel="stylesheet">
+    </head>
+    <body id="page-top" class="index">
 
-
-     Blogs 
-
-</title>
-<link rel="canonical" href="http://tim.moor.kiwi/blog/">
-
-
-
-
-
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
-
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500|Work+Sans">
-
-
-
-    
-    <link rel="stylesheet" href="http://tim.moor.kiwi/css/style.css?t=1505172830">
-    
-
-
-
-
-<link rel="shortcut icon"
-
-    href="http://tim.moor.kiwi/img/fav.ico"
-
->
-
-
-
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-31295784-7', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-
-
-
-  <link href="http://tim.moor.kiwi/blog/index.xml" rel="alternate" type="application/rss+xml" title="tim.moor.kiwi" />
-
-
-
-</head>
-
-<body lang="en">
-  
-
-<div class="section" id="top">
-
-    <div class="container hero fade-in one">
-    <h1 class="bold-title is-1">Tim's Blog</h1>
-    </div>
-
-    
-    <div class="section no-padding fade-in two">
-
+        <!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
     <div class="container">
-    <hr>
-<nav class="nav nav-center">
-    <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-    <div id="nav-menu" class="nav-left nav-menu">
-      <span class="nav-item">
-        <a href="http://tim.moor.kiwi/">Main</a>
-      </span>
-      <span class="nav-item">
-        <a href="http://tim.moor.kiwi/#about">About</a> 
-      </span>
-    
-      <span class="nav-item">
-        <a href="http://tim.moor.kiwi/#projects">Projects</a> 
-      </span>
-    
-      <span class="nav-item">
-        <a href="http://tim.moor.kiwi/#contact">Contact</a>
-      </span>
-    
-      <span class="nav-item">
-        <a href="http://tim.moor.kiwi/index.xml"><i class="fa fa-rss"></i></a>
-      </span>
-    
-    </div>
-</nav>
-<hr>
-    </div>
-       
-    <div class="container">
-
-    
-    <h2 class="title is-2 top-pad">Latest Post</h2>
-         
-        <div class="summary">May 18, 2017
-            <h3 class="title is-3 strong-post-title"><a href="http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/">How to deploy your Hugo site to GitHub using Travis-CI</a></h3>
-                <div class="markdown">
-                Install Hugo $ brew update &amp;&amp; brew install hugo  Basic Huo Usage $ hugo new site haruair $ hugo new post/hello-world.md $ hugo  Once that&rsquo;s done, we want to generate out static content
-$ hugo server --watch --buildDrafts $ hugo server -w -D # same as the above  The strength of static blog is that it don’t need any program specific environment. There are several options, Amazon S3, Dropbox, etc.
-                
-                <a href="http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/">...Read More</a>
-                
-                </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="/">TIM MOOR</a>
         </div>
-        
-    
 
-    <h2 class="title is-2 top-pad">All Posts</h2>
-        <ul>
-        
-            
-                <li class="post-item">
-    <span><a href="http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/">How to deploy your Hugo site to GitHub using Travis-CI</a></span> - <span>May 18, 2017</span>
-</li>
-            
-        
-            
-                <li class="post-item">
-    <span><a href="http://tim.moor.kiwi/blog/my-first-blog-post/">my first blog post</a></span> - <span>May 1, 2017</span>
-</li>
-            
-        
-            
-                <li class="post-item">
-    <span><a href="http://tim.moor.kiwi/blog/setup-hugo-blog-on-github-pages-with-travis-ci/">Setup Hugo blog on Github Pages with Travis CI</a></span> - <span>Feb 4, 2017</span>
-</li>
-            
-        
-            
-                <li class="post-item">
-    <span><a href="http://tim.moor.kiwi/blog/"></a></span> - <span>Jan 1, 0001</span>
-</li>
-            
-        
-        </ul>
-
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="/#page-top"></a>
+                </li>
+                <li class="">
+                    <a href="">Experience</a>
+                </li>
+                <li class="">
+                    <a href="/#about">About</a>
+                </li>
+                <li class="">
+                    <a href="/#contact">Contact</a>
+                </li>
+                <li class="">
+                    <a href="http://example.org/blog/">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container-fluid -->
+</nav>
 
-<div class="container has-text-centered top-pad">
-<hr>
-<a href="http://tim.moor.kiwi/blog/#top"><i class="fa fa-arrow-up"></i></a>
-<hr>
-</div>
 
-<div class="section" id="footer">
-    <div class="container has-text-centered">
-        
-            Proudly brought to you by http://gohugo.io
-        
+        <!-- Blog Section -->
+        <section class="blog blog-list" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Blog</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        
+                        <article class="post-preview text-center">
+                            <h3><a href='http://example.org/blog/how-to-deploy-your-hugo-site-to-github-with-travis-ci/'> How to deploy your Hugo site to GitHub using Travis-CI</a> </h3>
+                            <div class="post-meta">Thu, May 18, 2017</div>
+                            <a href='http://example.org/blog/how-to-deploy-your-hugo-site-to-github-with-travis-ci/'><nobr>Read more →</nobr></a>
+                        </article>
+                        
+                        <article class="post-preview text-center">
+                            <h3><a href='http://example.org/blog/my-first-blog-post/'> my first blog post</a> </h3>
+                            <div class="post-meta">Mon, May 1, 2017</div>
+                            <a href='http://example.org/blog/my-first-blog-post/'><nobr>Read more →</nobr></a>
+                        </article>
+                        
+                        <article class="post-preview text-center">
+                            <h3><a href='http://example.org/blog/setup-hugo-blog-on-github-pages-with-travis-ci/'> Setup Hugo blog on Github Pages with Travis CI</a> </h3>
+                            <div class="post-meta">Sat, Feb 4, 2017</div>
+                            <a href='http://example.org/blog/setup-hugo-blog-on-github-pages-with-travis-ci/'><nobr>Read more →</nobr></a>
+                        </article>
+                        
+                        <article class="post-preview text-center">
+                            <h3><a href='http://example.org/blog/openshift-ssl-debugging/'> </a> </h3>
+                            <div class="post-meta">Mon, Jan 1, 0001</div>
+                            <a href='http://example.org/blog/openshift-ssl-debugging/'><nobr>Read more →</nobr></a>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+<footer id="contact" class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>CALL TIM</h3>
+                    <p><i class="fa fa-phone footer-link" aria-hidden="true"></i>
+                    <a class="footer-link" href="tel:022%201004707">022 1004707</a></p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>GET SOCIAL</h3>
+                    <ul class="list-inline">
+                        
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only"></span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only"></span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                        
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only"></span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                        
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only"></span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only"></span><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>SEND AN EMAIL</h3>
+                    <p><a class="footer-link" href="mailto:tim.moor@linux-geek.co.nz">tim.moor@linux-geek.co.nz</a></p>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright © Mobius Design Studio 2017
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
 </div>
-</div>
-</div>
+        <!-- jQuery -->
+<script src="http://example.org/js/jquery-1.11.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="http://example.org/js/bootstrap.js"></script>
+<!-- Plugin JavaScript -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="http://example.org/js/classie.js"></script>
+<script src="http://example.org/js/cbpAnimatedHeader.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="http://example.org/js/jqBootstrapValidation.js"></script>
+<script src="http://example.org/js/contact_me.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="http://example.org/js/freelancer.js"></script>
+<!-- Custom JavaScript files -->
 
 
-<script>
-$('a[href^="http:\/\/tim.moor.kiwi\/blog\/#"]').click(function(e) {
-    e.preventDefault();
-    var target = this.hash;
-    $('html, body').animate({
-    scrollTop: $(target).offset().top
-    }, 500);
-    return false;
-})
-</script>
+
+    </body>
+</html>

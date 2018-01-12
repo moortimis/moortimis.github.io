@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tim.moor.kiwi</title>
-    <link>http://tim.moor.kiwi/</link>
-    <description>Recent content on tim.moor.kiwi</description>
+    <title>Tim Moor | Open Source Ninja</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Tim Moor | Open Source Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 May 2017 05:54:31 +1200</lastBuildDate>
     
-	<atom:link href="http://tim.moor.kiwi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to deploy your Hugo site to GitHub using Travis-CI</title>
-      <link>http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/</link>
+      <link>http://example.org/blog/how-to-deploy-your-hugo-site-to-github-with-travis-ci/</link>
       <pubDate>Thu, 18 May 2017 05:54:31 +1200</pubDate>
       
-      <guid>http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-using-travis-ci/</guid>
+      <guid>http://example.org/blog/how-to-deploy-your-hugo-site-to-github-with-travis-ci/</guid>
       <description>Install Hugo $ brew update &amp;amp;&amp;amp; brew install hugo  Basic Huo Usage $ hugo new site haruair $ hugo new post/hello-world.md $ hugo  Once that&amp;rsquo;s done, we want to generate out static content
 $ hugo server --watch --buildDrafts $ hugo server -w -D # same as the above  The strength of static blog is that it don’t need any program specific environment. There are several options, Amazon S3, Dropbox, etc.</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>http://tim.moor.kiwi/about/</link>
+      <link>http://example.org/about/</link>
       <pubDate>Mon, 01 May 2017 20:09:24 +1200</pubDate>
       
-      <guid>http://tim.moor.kiwi/about/</guid>
+      <guid>http://example.org/about/</guid>
       <description>My name is Tim Moor and I am a fully time DevOps and Open Source Evangalist. I&amp;rsquo;ve worked for Red Hat as part of the professional services arm and throghouly enjoyed my time traveling the world seeing the various ways people use Open Source software.
 So I guess you hear to find out a bit more about &amp;ldquo;Who I am&amp;rdquo;, &amp;ldquo;Why I write the posts that I do&amp;rdquo; and just gernally being nosiey I guess.</description>
     </item>
     
     <item>
       <title>contact</title>
-      <link>http://tim.moor.kiwi/contact/</link>
+      <link>http://example.org/contact/</link>
       <pubDate>Mon, 01 May 2017 20:09:24 +1200</pubDate>
       
-      <guid>http://tim.moor.kiwi/contact/</guid>
+      <guid>http://example.org/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>my first blog post</title>
-      <link>http://tim.moor.kiwi/blog/my-first-blog-post/</link>
+      <link>http://example.org/blog/my-first-blog-post/</link>
       <pubDate>Mon, 01 May 2017 20:09:24 +1200</pubDate>
       
-      <guid>http://tim.moor.kiwi/blog/my-first-blog-post/</guid>
+      <guid>http://example.org/blog/my-first-blog-post/</guid>
       <description>H1 Header This is my first blog post
 H2 Header This is my first blog post</description>
     </item>
     
     <item>
       <title>Setup Hugo blog on Github Pages with Travis CI</title>
-      <link>http://tim.moor.kiwi/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</link>
+      <link>http://example.org/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</link>
       <pubDate>Sat, 04 Feb 2017 11:10:12 +1100</pubDate>
       
-      <guid>http://tim.moor.kiwi/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</guid>
+      <guid>http://example.org/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</guid>
       <description>I don&amp;rsquo;t know much about Go, but I saw so many tweets it&amp;rsquo;s a great language, performance wise especially. Hugo is a static blog/site generator written by Go. I feel great with Hugo because of the simplicity. The program is provided as a single binary file. Other tools require a lot of small settings, installing language, setting envrionment, handling a package manager, for example. It still requires some config file, but no worries, it&amp;rsquo;s not that big.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://tim.moor.kiwi/blog/</link>
+      <link>http://example.org/blog/openshift-ssl-debugging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://tim.moor.kiwi/blog/</guid>
+      <guid>http://example.org/blog/openshift-ssl-debugging/</guid>
       <description># openssl verify -CAfile /etc/origin/master/ca.crt /etc/origin/master/master.server.crt openssl verify -CAfile /etc/origin/master/ca-bundle.crt /etc/origin/master/master.server.crt /etc/origin/master/master.server.crt: OK
 grep certificate-authority-data /etc/origin/master/admin.kubeconfig | awk &amp;lsquo;{ print $2 }&amp;rsquo; | base64 -d | md5sum grep certificate-authority-data /${USER}/.kube/config | awk &amp;lsquo;{ print $2 }&amp;rsquo; | base64 -d | md5sum md5sum /etc/origin/master/ca-bundle.crt
 grep certificate-authority-data /etc/origin/master/admin.kubeconfig | awk &amp;lsquo;{ print $2 }&amp;rsquo; | base64 -d | md5sum fb33bfae97375e964fc5c75aec16a894 -
