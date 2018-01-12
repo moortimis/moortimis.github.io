@@ -22,6 +22,8 @@ before_script:
 script:
   - git submodule init
   - ls -l .
+  - pwd
+  - find . 
   - hugo
 after_success:
   - chmod a+x ./scripts/deploy.sh
