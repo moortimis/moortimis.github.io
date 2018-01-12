@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://tim.moor.kiwi/"
 languageCode = "en-us"
 title = "Tim Moor | Open Source Ninja"
 theme = "hugo-resume-template"
