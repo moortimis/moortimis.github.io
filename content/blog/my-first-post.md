@@ -1,6 +1,7 @@
 ---
 title: "My First Post"
 date: 2018-01-01T23:30:08+02:00
+draft: true
 ---
 
 ## Subtitle
