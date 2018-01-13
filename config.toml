@@ -75,11 +75,11 @@ theme = "hugo-resume-template"
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-facebook"
-                link = "#"
+                link = "https://www.facebook.com/tim.moor"
 
             [[params.footer.social.networks]]
                 icon = "fa-google-plus"
-                link=  "#"
+                link=  "https://plus.google.com/u/0/+TimMoor"
 
             [[params.footer.social.networks]]
                 icon = "fa-twitter"
@@ -87,11 +87,11 @@ theme = "hugo-resume-template"
 
             [[params.footer.social.networks]]
                 icon = "fa-linkedin"
-                link=  "#"
+                link=  "https://twitter.com/moor_kiwis#"
 
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link=  "#"
+                link=  "https://github.com/moortimis#"
 
 
         [params.footer.credits]
