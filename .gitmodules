@@ -1,9 +1,3 @@
 [submodule "themes/hugo-resume-template"]
 	path = themes/hugo-resume-template
 	url = https://github.com/moortimis/hugo-resume-template
-[submodule "themes/osprey"]
-	path = themes/osprey
-	url = https://github.com/tomanistor/osprey.git
-[submodule "themes/elephants"]
-	path = themes/elephants
-	url = https://gitlab.com/meibenny/elephants.git
