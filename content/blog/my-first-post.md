@@ -6,7 +6,6 @@ categories: ["Development"]
 series: ["Go Web Dev"]
 slug: "hugo"
 project_url: "https://github.com/gohugoio/hugo"
-draft: true
 ---
 
 ## Subtitle
