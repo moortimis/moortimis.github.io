@@ -83,15 +83,15 @@ theme = "hugo-resume-template"
 
             [[params.footer.social.networks]]
                 icon = "fa-twitter"
-                link=  "#"
+                link=  "https://twitter.com/moor_kiwis"
 
             [[params.footer.social.networks]]
                 icon = "fa-linkedin"
-                link=  "https://twitter.com/moor_kiwis#"
+                link=  "https://www.linkedin.com/in/timmoor"
 
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link=  "https://github.com/moortimis#"
+                link=  "https://github.com/moortimis"
 
 
         [params.footer.credits]
