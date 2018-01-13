@@ -1,10 +1,12 @@
 ---
 title: "My First Post"
 date: 2018-01-01T23:30:08+02:00
-tags = [ "Development", "Go", "fast", "Blogging" ]
-categories = [ "Development" ]
-series = [ "First Blog Pages" ]
-draft: false
+tags: ["Development", "Go", "fast", "Blogging"]
+categories: ["Development"]
+series: ["Go Web Dev"]
+slug: "hugo"
+project_url: "https://github.com/gohugoio/hugo"
+draft: true
 ---
 
 ## Subtitle
