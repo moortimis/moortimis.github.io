@@ -1,34 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tim Moor | Open Source Ninja</title>
-    <link>http://tim.moor.kiwi/</link>
-    <description>Recent content on Tim Moor | Open Source Ninja</description>
+    <title>Jobs on Tim Moor | Open Source Ninja</title>
+    <link>http://tim.moor.kiwi/jobs/</link>
+    <description>Recent content in Jobs on Tim Moor | Open Source Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jan 2018 00:19:19 +0200</lastBuildDate>
     
-	<atom:link href="http://tim.moor.kiwi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tim.moor.kiwi/jobs/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My Second Post</title>
-      <link>http://tim.moor.kiwi/blog/my-second-post/</link>
-      <pubDate>Tue, 02 Jan 2018 00:19:19 +0200</pubDate>
-      
-      <guid>http://tim.moor.kiwi/blog/my-second-post/</guid>
-      <description>Second post Subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, libero adipisci eos id explicabo odit, delectus ab officiis a magni quae, aliquid cum doloribus. Ducimus quae numquam, adipisci aliquid repellendus repellat incidunt quod voluptate error ratione eveniet, corrupti eligendi suscipit autem natus sed! Animi dolore, sunt, corrupti repellendus in tenetur.
- And this is the way a list  Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://tim.moor.kiwi/blog/my-first-post/</link>
-      <pubDate>Mon, 01 Jan 2018 23:30:08 +0200</pubDate>
-      
-      <guid>http://tim.moor.kiwi/blog/my-first-post/</guid>
-      <description>Subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, tenetur iusto fuga hic perspiciatis ratione eum quasi ipsa autem, delectus exercitationem saepe asperiores libero! Facilis ipsam voluptatum odio ea, velit nam illum repellendus enim reprehenderit atque dolorem officiis ipsum ipsa, animi optio commodi recusandae culpa dolor maxime eaque est architecto quasi? Molestiae harum officia quasi nam non tempore ipsa distinctio officiis, neque ipsum aliquid sunt, temporibus possimus ipsam veritatis libero rem praesentium.</description>
-    </item>
     
     <item>
       <title>ARC INNOVATIONS</title>

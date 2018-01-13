@@ -24,7 +24,6 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-        <link href="/css/blog.css" rel="stylesheet">
     </head>
     <body id="page-top" class="index">
 
@@ -46,7 +45,7 @@
                     <a href="/#page-top"></a>
                 </li>
                 <li class="">
-                    <a href="">Experience</a>
+                    <a href="http://tim.moor.kiwi/jobs/">Experience</a>
                 </li>
                 <li class="">
                     <a href="/#about">About</a>
@@ -64,110 +63,48 @@
     <!-- /.container-fluid -->
 </nav>
 
-            
 
-        <div id="main" class="blog-post">
-            <div class="container blog-post__container">
-                <article id="content" class="blog-post__content">
-                    <h1 id="title">How to deploy your Hugo site to GitHub using Travis-CI</h1>
-                    <div class="blog-post__date">Thu May 18, 2017</div>
-                    <div class="blog-post__content">
+        <div class="portfolio-modal">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h1>CHRISTCHURCH CITY COUNCIL</h2>
+                                <hr class="star-primary">
+                                <img src="/img/portfolio/6a.png" class="img-responsive img-centered" alt="">
 
-<h1 id="install-hugo">Install Hugo</h1>
+                                
 
-<pre><code>$ brew update &amp;&amp; brew install hugo
-</code></pre>
+<p>Excited and eager to learn more about the IT Industry, the move to Christchurch and the assignment as the Business Systems Administrator of the Government Enterprise Management Suite (GEMS) applications was a true honour.</p>
 
-<h1 id="basic-huo-usage">Basic Huo Usage</h1>
+<p>With 450 daily active users and being a member of a small team meant that in the beginning with my days were managing database, windows and application administration tasks.</p>
 
-<pre><code>$ hugo new site haruair
-$ hugo new post/hello-world.md
-$ hugo
-</code></pre>
+<p>Over time a picked up PERL and used this as the tool to automate a large majority of these manual tasks, such as creating a web socket load balancer to spread users across varying application servers or auto mating database loads from SAP. This role taught me that if you haven&rsquo;t automated your original job within two years, that you&rsquo;re not working hard enough.</p>
 
-<p>Once that&rsquo;s done, we want to generate out static content</p>
+<h2 id="achievements">Achievements</h2>
 
-<pre><code>$ hugo server --watch --buildDrafts
-$ hugo server -w -D # same as the above
-</code></pre>
+<ul>
+<li>Automated 80% of my original role allowing time to take on additional application such as Interwoven Teamsite and others</li>
+<li>Appointed Technical Team Lead of the councils WWW.CCC.GOVT.NZ revamp project.</li>
+</ul>
 
-<p>The strength of static blog is that it don’t need any program specific environment. There are several options, Amazon S3, Dropbox, etc. Even it’s possible to use some abandoned old geocity-ish service. Github provides Github Pages for this case and it’s free to use.</p>
 
-<p>Create a Github account if you don’t have one. Then, Create a repository using <username>.github.io as a name.</p>
-
-<p>Go to the your hugo directory, and make it as a git repository, then push it to Github.</p>
-
-<pre><code>$ git init
-$ git checkout -b source
-$ echo '/public/' &gt;&gt; .gitignore
-$ git add .
-$ git commit -m &quot;Initial my blog&quot;
-$ git remote add origin haruair.github.io
-</code></pre>
-
-<p>I used source branch for the original source, the static file in public directory will goes into the master branch as an orphan branch.</p>
-
-<pre><code>$ hugo
-$ export HUGO_TEMP_DIR=$(mktemp -d)
-$ cp public/* $HUGO_TEMP_DIR
-$ git checkout --orphan master
-</code></pre>
-
-<p>If you build the site manually, it’s just boring. Travis CI allows us to add a deploy script after build the static pages. I found the script from rcoedo.com, I just put my script below, just in case.</p>
-
-<pre><code>$ mkdir scripts &amp;&amp; cd scripts
-$ wget https://raw.githubusercontent.com/haruair/haruair.github.io/code/scripts/deploy.sh
-$ git add deploy.sh &amp;&amp; git commit -m &quot;Add deploy script&quot;
-</code></pre>
-
-<h1 id="create-a-travis-yml-file">Create a .travis.yml file</h1>
-
-<p>I do love pre-config file. The config is here. This config need to update as own details. The important part is before_install part. Delete this section from the yml file, then add it back with your ssh key. Yes, your ssh key!</p>
-
-<p>Before add the key into the repository, it will encrypt using travis. Please be aware, do not add the original private key into the repository.</p>
-
-<h1 id="install-travis">Install travis</h1>
-
-<p>Travis CI provides a CIL tool for the work. Let’s install this tool, first. It’s using Ruby, therefore, you can install it via gem.</p>
-
-<pre><code>$ gem install travis --no-rdoc -no-ri
-</code></pre>
-
-<p>If you don’t have Ruby on your machine, please check the document from Travis CI.</p>
-
-<h2 id="create-a-new-ssh-key-and-encrypt-it">Create a new ssh key and encrypt it</h2>
-
-<p>It’s available to use an existing key, however, creating new one for Travis CI is good for the security. Make sure that ssh-keygen can be overriding a default key id_rsa, be careful before type the enter.</p>
-
-<pre><code>$ ssh-keygen
-</code></pre>
-
-<p>I created the ssh key named travis_key. The result of this commend is the pair of the key: travis_key and travis_key.pub. The first one is a private key, the other file is a public one.</p>
-
-<p>Now, we can add travis_key into Travis using the commend below:</p>
-
-<pre><code>$ travis encrypt-file travis_key
-</code></pre>
-
-<p>If you are not logged in Travis before, you may need to run travis login first.</p>
-
-<p>After then, travis add encrypt file and set the environment variable for the encrypt file. Make sure all files are included in git repository and push it to Github. Also, do not commit the “unencrypt key” into your repository.</p>
-
-<h1 id="register-the-new-key-in-github">Register the new key in Github</h1>
-
-<p>In Github setting page, go to the ssh section and add travis_key.pub for the deploy. More informations here.</p>
-
-<h1 id="enable-a-repository-on-travis-ci">Enable a repository on Travis CI</h1>
-
-<p>Go to the profile page of Travis CI, Find out the repository, then turn on the switch. It will do the build and will push back to Github master branch.</p>
-
-<p>All done. Just add new post using Hugo, push to Github, Travis will handle all build problem.</p>
-
-<p>The quickest and the easiest way is here. Clone my repository haruair.github.io, clean up all details and configurations, and use it. Please make sure that the credential is correct.</p>
-
-<p>It’s a quite long description than I thought. Tools support the writing, however, the key of writing is based on all own ideas. Keep sharpening your idea using awesome writing tool Hugo.</p>
-</div>
-                </article>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>CHRISTCHURCH CITY COUNCIL (NZ)</strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>2009</strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Business Systems Administrator</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -231,6 +168,9 @@ $ git add deploy.sh &amp;&amp; git commit -m &quot;Add deploy script&quot;
         <i class="fa fa-chevron-up"></i>
     </a>
 </div>
+        <!-- Portfolio Modals -->
+
+
         <!-- jQuery -->
 <script src="http://tim.moor.kiwi/js/jquery-1.11.js"></script>
 <!-- Bootstrap Core JavaScript -->

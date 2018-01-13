@@ -3,43 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tim.moor.kiwi/blog/how-to-deploy-your-hugo-site-to-github-with-travis-ci/</loc>
-    <lastmod>2017-05-18T05:54:31+12:00</lastmod>
+    <loc>http://tim.moor.kiwi/blog/my-second-post/</loc>
+    <lastmod>2018-01-02T00:19:19+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tim.moor.kiwi/about/</loc>
-    <lastmod>2017-05-01T20:09:24+12:00</lastmod>
+    <loc>http://tim.moor.kiwi/blog/my-first-post/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tim.moor.kiwi/contact/</loc>
-    <lastmod>2017-05-01T20:09:24+12:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tim.moor.kiwi/blog/my-first-blog-post/</loc>
-    <lastmod>2017-05-01T20:09:24+12:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tim.moor.kiwi/blog/setup-hugo-blog-on-github-pages-with-travis-ci/</loc>
-    <lastmod>2017-02-04T11:10:12+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tim.moor.kiwi/blog/openshift-ssl-debugging/</loc>
+    <loc>http://tim.moor.kiwi/jobs/arc-innovations/</loc>
   </url>
   
   <url>
     <loc>http://tim.moor.kiwi/blog/</loc>
-    <lastmod>2017-05-18T05:54:31+12:00</lastmod>
+    <lastmod>2018-01-02T00:19:19+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/jobs/christchurch-city-council/</loc>
   </url>
   
   <url>
     <loc>http://tim.moor.kiwi/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/jobs/dimension-data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/jobs/foodstuffs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/jobs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/jobs/red-hat-inc/</loc>
   </url>
   
   <url>
@@ -49,8 +55,12 @@
   
   <url>
     <loc>http://tim.moor.kiwi/</loc>
-    <lastmod>2017-05-18T05:54:31+12:00</lastmod>
+    <lastmod>2018-01-02T00:19:19+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/jobs/webbiz-media-limited/</loc>
   </url>
   
 </urlset>
