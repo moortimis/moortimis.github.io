@@ -1,6 +1,9 @@
 ---
 title: "My First Post"
 date: 2018-01-01T23:30:08+02:00
+tags = [ "Development", "Go", "fast", "Blogging" ]
+categories = [ "Development" ]
+series = [ "First Blog Pages" ]
 draft: true
 ---
 
