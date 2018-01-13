@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on Tim Moor | Open Source Ninja</title>
+    <link>http://tim.moor.kiwi/tags/blogging/</link>
+    <description>Recent content in Blogging on Tim Moor | Open Source Ninja</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 23:30:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://tim.moor.kiwi/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://tim.moor.kiwi/blog/hugo/</link>
+      <pubDate>Mon, 01 Jan 2018 23:30:08 +0200</pubDate>
+      
+      <guid>http://tim.moor.kiwi/blog/hugo/</guid>
+      <description>Subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, tenetur iusto fuga hic perspiciatis ratione eum quasi ipsa autem, delectus exercitationem saepe asperiores libero! Facilis ipsam voluptatum odio ea, velit nam illum repellendus enim reprehenderit atque dolorem officiis ipsum ipsa, animi optio commodi recusandae culpa dolor maxime eaque est architecto quasi? Molestiae harum officia quasi nam non tempore ipsa distinctio officiis, neque ipsum aliquid sunt, temporibus possimus ipsam veritatis libero rem praesentium.</description>
+    </item>
+    
+  </channel>
+</rss>

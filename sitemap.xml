@@ -3,7 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://tim.moor.kiwi/blog/hugo/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tim.moor.kiwi/jobs/arc-innovations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/tags/blogging/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/blog/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -20,7 +37,31 @@
   </url>
   
   <url>
+    <loc>http://tim.moor.kiwi/categories/development/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/tags/development/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://tim.moor.kiwi/jobs/foodstuffs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/tags/fast/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tim.moor.kiwi/tags/go/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -34,11 +75,13 @@
   
   <url>
     <loc>http://tim.moor.kiwi/tags/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://tim.moor.kiwi/</loc>
+    <lastmod>2018-01-01T23:30:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
