@@ -1,5 +1,5 @@
 ---
-title: "Ssl Debugging on Openshift"
+title: "SSL Debugging on OpenShift"
 date: 2018-01-14T08:12:32+13:00
 draft: true
 ---

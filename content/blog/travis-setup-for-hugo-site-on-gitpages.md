@@ -1,5 +1,5 @@
 ---
-title: "Travis Setup for Hugo Site on Gitpages"
+title: "Travis Setup for Hugo Site on GitPages"
 date: 2018-01-14T08:11:06+13:00
 draft: true
 ---
@@ -8,15 +8,15 @@ I don't know much about Go, but I saw so many tweets it's a great language,
 performance wise especially. Hugo is a static blog/site generator written by Go.
 I feel great with Hugo because of the simplicity. The program is provided as a
 single binary file. Other tools require a lot of small settings, installing
-language, setting envrionment, handling a package manager, for example. It still
+language, setting environment, handling a package manager, for example. It still
 requires some config file, but no worries, it's not that big.
 
-This blog serves on Github Pages. If the blog is using Jekyll, Github is the
-best place to serve the blog because Github provides built-in Jekyll serving as
+This blog serves on GitHub Pages. If the blog is using Jekyll, GitHub is the
+best place to serve the blog because GitHub provides built-in Jekyll serving as
 a first citizen. Otherwise, Hugo is in the wild. After writing something new,
 it need to render new static pages, then push that files on the repository.
 When you publish every single time by hand, it is a huge chore and I will never
-use it again. In that case, TravisCI is the solution. It's available to use
+use it again. In that case, Travis-ci is the solution. It's available to use
 it for the rendering after new post pushed.
 
 ## [Install Hugo](https://gohugo.io/overview/installing/)
@@ -43,8 +43,8 @@ $ hugo
 
 You can find the result under the `public` directory after `hugo` run.
 
-Hugo provides simple webserver for the local. `--watch` flag is useful for the
-editing that the page will refresh every save moment. Also, it's avilable to
+Hugo provides simple web-server for the local. `--watch` flag is useful for the
+editing that the page will refresh every save moment. Also, it's available to
 build within drafts using `--buildDrafts` or `-D`.
 
 ```bash
@@ -56,7 +56,7 @@ $ hugo server -w -D # same as the above
 
 The strength of static blog is that it don't need any program specific
 environment. There are several options, Amazon S3, Dropbox, etc. Even it's
-possible to use some abandoned old geocity-ish service. Github provides Github
+possible to use some abandoned old geocity-ish service. GitHub provides GitHub
 Pages for this case and it's free to use.
 
 Create a [Github](https://github.com) account if you don't have one. Then,
